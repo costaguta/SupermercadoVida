@@ -13,30 +13,30 @@
 import pandas as pd
 import numpy as np
 
-# Número de filas
+### Número de filas
 num_filas = 200_000
 
-# Generar IDs de productos con ventas diferenciadas
+#### Generar IDs de productos con ventas diferenciadas
 productos = ['Arroz', 'Leche', 'Pan', 'Carne', 'Huevos', 'Aceite', 'Frutas', 'Verduras', 'Cereal', 'Galletas']
 producto_ids = np.arange(1, len(productos) + 1)
 
-# Asignar probabilidades a los productos (algunos tendrán muchas más ventas)
+#### Asignar probabilidades a los productos (algunos tendrán muchas más ventas)
 probabilidades_productos = [0.30, 0.10, 0.05, 0.07, 0.15, 0.05, 0.12, 0.08, 0.03, 0.05]
 
-# Generar datos de clientes con diferencias en compras por género
+#### Generar datos de clientes con diferencias en compras por género
 cliente_ids = np.arange(1, int(num_filas / 8) + 1)  # Menos clientes para aumentar el gasto por cliente
 generos = np.random.choice(['Masculino', 'Femenino'], size=len(cliente_ids), p=[0.65, 0.35])  # Hombres compran más
 edades = np.random.randint(18, 70, size=len(cliente_ids))
 
-# Generar fechas distribuidas a lo largo del año 2025, con más ventas en fines de semana y meses de alta demanda
+#### Generar fechas distribuidas a lo largo del año 2025, con más ventas en fines de semana y meses de alta demanda
 fechas = pd.date_range(start='2025-01-01', end='2025-12-31', freq='D')
 fechas_venta = np.random.choice(fechas, size=num_filas)
 
-# Simular ventas más diferenciadas por cantidad y gasto
+#### Simular ventas más diferenciadas por cantidad y gasto
 cantidades_random = np.random.randint(1, 15, size=num_filas)  # Mayor rango en la cantidad vendida
 precios_random = np.random.uniform(5.0, 100.0, size=num_filas).round(2)  # Más variación en los precios
 
-# Generar datos de ventas con estas diferencias
+#### Generar datos de ventas con estas diferencias
 ventas = {
     'Venta_ID': np.arange(1, num_filas + 1),
     'Cliente_ID': np.random.choice(cliente_ids, size=num_filas),
@@ -47,20 +47,20 @@ ventas = {
     'Fecha_Venta': fechas_venta
 }
 
-# Crear DataFrame de ventas
+#### Crear DataFrame de ventas
 df_ventas = pd.DataFrame(ventas)
 
-# Calcular el total correctamente
+#### Calcular el total correctamente
 df_ventas['Total'] = df_ventas['Cantidad'] * df_ventas['Precio_Unitario']
 
-# Crear DataFrame de clientes
+#### Crear DataFrame de clientes
 df_clientes = pd.DataFrame({
     'Cliente_ID': cliente_ids,
     'Genero': generos,
     'Edad': edades
 })
 
-# Guardar como archivo CSV
+#### Guardar como archivo CSV
 df_ventas.to_csv('ventas_supermercado.csv', index=False)
 df_clientes.to_csv('clientes_supermercado.csv', index=False)
 
