@@ -1,17 +1,17 @@
 # SupermercadoVida
-🛒 Proyecto de análisis de datos - Ventas de supermercado  
+## 🛒 Proyecto de análisis de datos - Ventas de supermercado  
 
-🎖️ Objetivo: El objetivo general del proyecto consta en optimizar la toma de decisiones comerciales mediante el análisis de datos, permitiendo entender de mejor manera el desempeño del negocio, el comportamiento de los clientes, la rentabilidad de los productos y las tendencias temporales de ventas. Este análisis permitira ser mas eficientes en el desempeño de la empresa, a su vez, fomentará el pensamiento estratégico y la toma de decisiones basadas en datos.
+## 🎖️ Objetivo: El objetivo general del proyecto consta en optimizar la toma de decisiones comerciales mediante el análisis de datos, permitiendo entender de mejor manera el desempeño del negocio, el comportamiento de los clientes, la rentabilidad de los productos y las tendencias temporales de ventas. Este análisis permitira ser mas eficientes en el desempeño de la empresa, a su vez, fomentará el pensamiento estratégico y la toma de decisiones basadas en datos.
 
-⚙️ Herramientas utilizadas: 
+## ⚙️ Herramientas utilizadas: 
   Python
   Canva
   PowerBI
   Github
 
-🐍 Codigo de datos: 
-import pandas as pd
-import numpy as np
+## 🐍 Codigo de datos: 
+### import pandas as pd
+### import numpy as np
 
 ### Número de filas
 num_filas = 200_000
@@ -68,11 +68,11 @@ print("Dataset actualizado: ventas_supermercado.csv y clientes_supermercado.csv 
 
 
 
-📊 Conclusión: La tendencia en las ventas de la compañia muestra un patrón estable, en el rango mensual de $6.5 millones en volumen de ventas y 120mil productos consumidos por 16mil clientes. El análisis de clientes muestra que de los 200mil totales, 25% son jovenes entre 18 a 30 años y 75% son adultos dentro del rango etario 30-70, con un promedio de 44 años y que el 65% de las ventas totales es hacia el género masculino. En el análisis de productos, encontramos que manteniendo una utilidada en todas las catergorías de un 96%, la que mayor volumen de ventas, y tambien utilidad, es el arroz, seguido por los huevos y tercero las frutas. Estos alimentos son versátiles y se utilizan para multiples recetas, indispensables en la dieta familiar. Es probable que los consumidores estén priorzando compras de productos para su alimentación diaria y que existe una preferencia por los alimentos naturales, en lugar de los procesados. Estos productos suelen ser asequibles y tienen buena relación precio-rendimiento, lo que puede indicar que los consumidores estan buscando optimizar el presupuesto familiar, sobre todo en tiempos de incertiducmbre económica. 
+## 📊 Conclusión: La tendencia en las ventas de la compañia muestra un patrón estable, en el rango mensual de $6.5 millones en volumen de ventas y 120mil productos consumidos por 16mil clientes. El análisis de clientes muestra que de los 200mil totales, 25% son jovenes entre 18 a 30 años y 75% son adultos dentro del rango etario 30-70, con un promedio de 44 años y que el 65% de las ventas totales es hacia el género masculino. En el análisis de productos, encontramos que manteniendo una utilidada en todas las catergorías de un 96%, la que mayor volumen de ventas, y tambien utilidad, es el arroz, seguido por los huevos y tercero las frutas. Estos alimentos son versátiles y se utilizan para multiples recetas, indispensables en la dieta familiar. Es probable que los consumidores estén priorzando compras de productos para su alimentación diaria y que existe una preferencia por los alimentos naturales, en lugar de los procesados. Estos productos suelen ser asequibles y tienen buena relación precio-rendimiento, lo que puede indicar que los consumidores estan buscando optimizar el presupuesto familiar, sobre todo en tiempos de incertiducmbre económica. 
 
 
 
 
-📩 Contacto: Este proyecto forma parte de mi proceso de aprendizaje en ciencia de datos. Si tienesn sugerencias o colaboraciones, puedes contactarme por este perfil. 
+## 📩 Contacto: Este proyecto forma parte de mi proceso de aprendizaje en ciencia de datos. Si tienesn sugerencias o colaboraciones, puedes contactarme por este perfil. 
 
 
