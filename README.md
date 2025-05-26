@@ -4,10 +4,7 @@
 ## 🎖️ Objetivo: El objetivo general del proyecto consta en optimizar la toma de decisiones comerciales mediante el análisis de datos, permitiendo entender de mejor manera el desempeño del negocio, el comportamiento de los clientes, la rentabilidad de los productos y las tendencias temporales de ventas. Este análisis permitira ser mas eficientes en el desempeño de la empresa, a su vez, fomentará el pensamiento estratégico y la toma de decisiones basadas en datos.
 
 ## ⚙️ Herramientas utilizadas: 
-  Python
-  Canva
-  PowerBI
-  Github
+  Python - Canva - PowerBI - Github
 
 ## 🐍 Codigo de datos: 
 ### import pandas as pd
